@@ -20,7 +20,7 @@ services:
       - "8081:8080"
     volumes:
     #- C:/Users/marco/OneDrive/Área de Trabalho/project_breweyr/dags:/opt/airflow/dags
-    - C:/Users/marco/OneDrive/Área de Trabalho/project_breweyr/:/opt/airflow/
+    - ./:/opt/airflow/
   config:
     build:
       context: .
